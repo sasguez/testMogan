@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+	<meta http-equiv="Permissions-Policy" content="interest-cohort=()">
     <title>Document</title>
 </head>
 <body>
@@ -22,7 +23,7 @@
 		var initESW = function(gslbBaseURL) {
 			embedded_svc.settings.displayHelpButton = true; //O falso
 			embedded_svc.settings.language = ''; //Por ejemplo, ingrese 'en' o 'en-US'
-	
+			//agregado el metadato
 			//embedded_svc.settings.defaultMinimizedText = '...'; //(Toma como valor predeterminado Sesión de chat con un experto)
 			//embedded_svc.settings.disabledMinimizedText = '...'; //(Toma como valor predeterminado Agente sin conexión)
 	
